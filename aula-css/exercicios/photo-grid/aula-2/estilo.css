@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+header { 
+  display: flex; 
+  justify-content: flex-start;
+  margin: 30px auto;
+  max-width: 992px;
+}
+
+
+@media (min-width: 768px) { 
+  header { 
+    justify-content: center; 
+  }
+}
+
+header .card { 
+  margin: 20px;
+} 
+
+header .card img { 
+  border-radius: 50%; 
+  width: 100%;
+}
+
+@media (min-width: 768px) { 
+  header .card { 
+    margin: 0 60px 0 30px;
+  }
+}
+
+body{
+  margin: 0;
+  font-family: 'Arvo', serif;
+  background: #f5f5f5
+
+}
+
+.card img { 
+  max-width: 400px; 
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  width: 400px;
+  padding: 10px;
+  background: #fff;
+  margin: 20px;
+}
+
+.container { 
+  display: inline;
+  flex-direction: row;
+  align-items: center;
+  max-width: 992px; 
+  margin: 0 auto;
+   
+}
+
+
+.Santiago img { 
+  max-width: 100%; 
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.Santiago {
+  display: inline-block;
+  flex-wrap: wrap; 
+  justify-content: center;
+  width: 320px;
+  padding: 10px;
+  background: #fff;
+  margin: 10px;
+   }
+
+.detalhes2 {
+  margin: 0;
+  font-family: 'Arvo', serif;
+  color: black;
+  background: #f5f5f5
+}
+.detalhes2 img {
+  max-width: 600px; 
+}
+
+.Barcelona img { 
+  max-width: 100%; 
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.Barcelona {
+  display: inline-block;
+  flex-wrap: wrap; 
+  justify-content: center;
+  width: 320px;
+  padding: 10px;
+  background: #fff;
+  margin: 10px;
+}
+
+.detalhes1 {
+  margin: 0;
+  font-family: 'Arvo', serif;
+  color: black;
+  background: #f5f5f5
+}
+
+.detalhes1 img {
+  max-width: 600px; 
+}
+
+.Flam img { 
+  max-width: 100%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover; 
+}
+
+.Flam {
+  display: inline-block;
+  flex-wrap: wrap; 
+  justify-content: center;
+  width: 320px;
+  padding: 10px;
+  background: #fff;
+  margin: 10px;
+}
+
+.detalhes3 {
+  margin: 0;
+  font-family: 'Arvo', serif;
+  color: black;
+  background: #f5f5f5
+}
+.detalhes3 img {
+  max-width: 600px; 
+}
+
+.Dublin img { 
+  max-width: 100%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover; 
+  object-position: bottom left; 
+}
+
+.Dublin {
+  display: inline-block;
+  flex-wrap: wrap; 
+  justify-content: center;
+  width: 320px;
+  padding: 10px;
+  background: #fff;
+  margin: 10px;
+}
+
+.detalhes4 {
+  margin: 0;
+  font-family: 'Arvo', serif;
+  color: black;
+  background: #f5f5f5
+
+}
+
+.detalhes4 img {
+  max-width: 600px; 
+}
+
+.BuenosAires img { 
+  max-width: 100%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover; 
+  object-position: bottom left;
+}
+
+.BuenosAires {
+  display: inline-block;
+  flex-wrap: wrap; 
+  justify-content: center;
+  width: 320px;
+  padding: 10px;
+  background: #fff;
+  margin: 10px;
+}
+
+.detalhes5 {
+  margin: 0;
+  font-family: 'Arvo', serif;
+  color: black;
+  background: #f5f5f5
+}
+
+.detalhes5 img {
+  max-width: 600px; 
+  width: 300px;
+  height: 300px;
+}
+
+.Montevideo img { 
+  max-width: 100%;
+  width: 300px;
+  height: 300px;
+  object-fit: container; 
+  }
+
+.Montevideo {
+  display: inline-block;
+  flex-wrap: wrap; 
+  justify-content: center;
+  width: 320px;
+  padding: 10px;
+  background: #fff;
+  margin: 10px;
+}
+
+.detalhes6 {
+  margin: 0;
+  font-family: 'Arvo', serif;
+  color: black;
+  background: #f5f5f5
+
+}
+.detalhes6 img {
+  max-width: 50%; 
+  width: 300px;
+  height: 300px;
+  object-fit: container;
+}
+
+footer p {
+  text-align: center;
+}
